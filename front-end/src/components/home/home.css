@@ -1,0 +1,42 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.home-container .home-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 100px;
+}
+.home-container .home-header .add-icon{
+    font-size: 40px;
+    color: blue;
+    cursor: pointer;
+}
+.home-body table{
+    margin: 30px auto;
+    width: 80%;
+}
+.home-body table thead th{
+    margin: 0;
+    padding: 10px 15px;
+    border: 1.4px solid black;
+}
+.home-body table tr td{
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.home-body table .tr{
+    
+}
+.operation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;   
+}

@@ -1,0 +1,42 @@
+.del-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.del-container .box{
+    margin: 30px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 2px 5px black;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;    
+}
+.del-container .box button{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100px;
+    padding: 5px 10px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.del-container .box div{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+}
+.del-container .box .cancel{
+    background-color: aliceblue;
+    border: 1px solid black;
+    color: black;
+}

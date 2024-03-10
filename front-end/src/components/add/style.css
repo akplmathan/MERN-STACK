@@ -1,0 +1,47 @@
+.add-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.add-container .box{
+    padding: 30px;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 0 10px black;
+    border-radius: 20px;
+}
+.add-container .box div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.add-container .box input{
+    height: 30px;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    color: rgb(122, 26, 13);
+}
+.add-container .box label{
+    font-size: 20px;
+}
+.add-container button{
+    width: 90%;
+    margin: 5px auto;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(14, 85, 78);
+    color: white;
+    cursor: pointer;
+}
